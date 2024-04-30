@@ -1,0 +1,32 @@
+[
+  {
+    "matte_type": "none"
+  },
+  {
+    "matte_type": "modernthin"
+  },
+  {
+    "matte_type": "modern"
+  },
+  {
+    "matte_type": "modernwide"
+  },
+  {
+    "matte_type": "flexible"
+  },
+  {
+    "matte_type": "shadowbox"
+  },
+  {
+    "matte_type": "panoramic"
+  },
+  {
+    "matte_type": "triptych"
+  },
+  {
+    "matte_type": "mix"
+  },
+  {
+    "matte_type": "squares"
+  }
+]

@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  frameart:
+    container_name: frameart
+    network_mode: host
+    #restart: unless-stopped
+    build:
+      context: container
+      dockerfile: Dockerfile
+    volumes:
+      - '/volume2/MainData/Memories/Collections/The Frame:/images'
+      - '/volume2/MainData/Servers/FrameArt/Tokens:/tokens'
+      - '/volume2/MainData/Servers/FrameArt/container:/container'
